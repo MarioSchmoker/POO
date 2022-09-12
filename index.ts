@@ -49,3 +49,5 @@ class Parlante{
 let primerParlante = new Parlante(true,true,33);
 let volumenDelPrimerParlante:number = primerParlante.obtenerVolumen();
 console.log("Volumen", volumenDelPrimerParlante);
+let segundoParlante = new Parlante(true,true,43);
+console.log(segundoParlante);

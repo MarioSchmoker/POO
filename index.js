@@ -34,3 +34,5 @@ var Parlante = /** @class */ (function () {
 var primerParlante = new Parlante(true, true, 33);
 var volumenDelPrimerParlante = primerParlante.obtenerVolumen();
 console.log("Volumen", volumenDelPrimerParlante);
+var segundoParlante = new Parlante(true, true, 43);
+console.log(segundoParlante);
